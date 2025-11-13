@@ -13,4 +13,4 @@ const { type } = Astro.props;
 const miniBio = await getMiniBio();
 ---
 
-{type === 'hero' ? <MiniBioHero /> : <MiniBioCard content={miniBio} />}
+{type === 'hero' ? <MiniBioHero content={miniBio} /> : <MiniBioCard content={miniBio} />}
