@@ -1,4 +1,4 @@
-# John's Web Dev Blog
+# Rod's Web Dev Blog
 
 A modern blog website built with Astro, TypeScript, and Tailwind CSS, featuring responsive design and custom typography scaling.
 
