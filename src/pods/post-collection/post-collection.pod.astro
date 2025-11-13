@@ -1,0 +1,9 @@
+---
+import { getAllPosts } from './post-collection.api.ts';
+
+const posts = await getAllPosts();
+---
+
+<section class="flex flex-1 flex-col gap-9">
+  {posts.map(post => <h2>{post.title}</h2>)}
+</section>
